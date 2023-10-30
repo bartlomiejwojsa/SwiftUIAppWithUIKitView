@@ -11,6 +11,10 @@
 		ED5EFF0629D0C7000092546C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EFF0529D0C7000092546C /* ContentView.swift */; };
 		ED5EFF0829D0C7010092546C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5EFF0729D0C7010092546C /* Assets.xcassets */; };
 		ED5EFF0B29D0C7010092546C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5EFF0A29D0C7010092546C /* Preview Assets.xcassets */; };
+		ED5EFF1329D0C7230092546C /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EFF1229D0C7230092546C /* URLImageView.swift */; };
+		ED5EFF1629D0C7AE0092546C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EFF1529D0C7AE0092546C /* ImageLoader.swift */; };
+		ED5EFF1929D0CC550092546C /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EFF1829D0CC550092546C /* StarView.swift */; };
+		ED5EFF1C29D0CE820092546C /* StarViewRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EFF1B29D0CE820092546C /* StarViewRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		ED5EFF0529D0C7000092546C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED5EFF0729D0C7010092546C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5EFF0A29D0C7010092546C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED5EFF1229D0C7230092546C /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
+		ED5EFF1529D0C7AE0092546C /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		ED5EFF1829D0CC550092546C /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		ED5EFF1B29D0CE820092546C /* StarViewRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		ED5EFF0229D0C7000092546C /* URLImageViewSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				ED5EFF1A29D0CE750092546C /* View Representations */,
+				ED5EFF1729D0CC440092546C /* CustomViews */,
+				ED5EFF1429D0C7A40092546C /* Services */,
+				ED5EFF1129D0C7110092546C /* Views */,
 				ED5EFF0329D0C7000092546C /* URLImageViewSwiftUIApp.swift */,
 				ED5EFF0529D0C7000092546C /* ContentView.swift */,
 				ED5EFF0729D0C7010092546C /* Assets.xcassets */,
@@ -65,6 +77,38 @@
 				ED5EFF0A29D0C7010092546C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED5EFF1129D0C7110092546C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED5EFF1229D0C7230092546C /* URLImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED5EFF1429D0C7A40092546C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED5EFF1529D0C7AE0092546C /* ImageLoader.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ED5EFF1729D0CC440092546C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				ED5EFF1829D0CC550092546C /* StarView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		ED5EFF1A29D0CE750092546C /* View Representations */ = {
+			isa = PBXGroup;
+			children = (
+				ED5EFF1B29D0CE820092546C /* StarViewRepresentation.swift */,
+			);
+			path = "View Representations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +183,10 @@
 			files = (
 				ED5EFF0629D0C7000092546C /* ContentView.swift in Sources */,
 				ED5EFF0429D0C7000092546C /* URLImageViewSwiftUIApp.swift in Sources */,
+				ED5EFF1629D0C7AE0092546C /* ImageLoader.swift in Sources */,
+				ED5EFF1929D0CC550092546C /* StarView.swift in Sources */,
+				ED5EFF1329D0C7230092546C /* URLImageView.swift in Sources */,
+				ED5EFF1C29D0CE820092546C /* StarViewRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
